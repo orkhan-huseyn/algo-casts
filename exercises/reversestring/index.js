@@ -8,8 +8,8 @@
 
 function reverse(str) {
   let reversedStr = '';
-  for (let i = 0; i < str.length; i++) {
-    reversedStr = str[i] + reversedStr;
+  for (let char of str) {
+    reversedStr = char + reversedStr;
   }
   return reversedStr;
 }
